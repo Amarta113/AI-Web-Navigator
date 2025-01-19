@@ -101,10 +101,10 @@ def get_response(user_query, vector_store, api_key):
     return response['answer']
 
     
-st.set_page_config(page_title="Gaditech", page_icon=":cyclone:")
+st.set_page_config(page_title="10pearls", page_icon=":globe_with_meridians:")
 st.write(css, unsafe_allow_html=True)
 
-st.title("Gaditech AI Assistant")
+st.title("10pearls AI Assistant")
 
 with st.sidebar:
         st.header("Settings")
@@ -118,7 +118,7 @@ else:
     # session state
     if "chat_history" not in st.session_state:
             st.session_state.chat_history = [
-                AIMessage(content="Hello, I am Gaditech AI assistant. Ask me about Gaditech.")
+                AIMessage(content="Hello, I am 10pearls AI assistant. Ask me about 10pearls.")
             ]
     if "vector_store" not in st.session_state:
         st.session_state.vector_store = get_vector_store()

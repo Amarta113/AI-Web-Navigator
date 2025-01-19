@@ -32,7 +32,7 @@ css = '''
 bot_template = '''
 <div class="chat-message bot">
     <div class="avatar">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxbnrES2bx8XWdkmuLcWRakmzMr7ino6dVSg&s">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1cc4JhosemUoVwzLv9EspZU3Tg4kj_Zmbyg&s">
     </div>
     <div class="message">{{MSG}}</div>
 </div>
