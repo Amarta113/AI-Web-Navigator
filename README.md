@@ -63,11 +63,12 @@ In this project, we use:
    ```bash
    pip install -r requirements.txt
 3. **Set environment variable**
+   
    Create a `.env` file and set your Qdrant credentials
    ```bash
    qdrant_url = YOUR-QDRANT-VECTORSTORE-URL
    qdrant_key = YOUR-QDRANT-API-KEY
-4. **Run the app**
+5. **Run the app**
    ```bash
    steamlit run main.py
 
