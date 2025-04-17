@@ -94,7 +94,7 @@ In this project, we use:
   
 -  **Groq Model:** Default is `mixtral-8x7b-32768`, changeable in the code
   
--  **Collection Name:** Change 'collection' to anything relevant to your use case
+-  **Collection Name:** Change `collection` to anything relevant to your use case
 
 ## 🎨 UI Styling
 The app uses custom HTML/CSS templates for chat styling. See:
