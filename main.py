@@ -20,13 +20,9 @@ from style import css, bot_template, user_template
 load_dotenv()
 
 def get_vector_store():
-    web_loader = WebBaseLoader(["https://10pearls.com/",
-                                "https://10pearls.com/services/",
-                                "https://10pearls.com/services-partnerships/",
-                                "https://10pearls.com/casestudies/",
-                                "https://10pearls.com/news-insights/",
-                                "https://10pearls.com/life-at-10pearls/"
-                                ]                
+    web_loader = WebBaseLoader([
+        # add your website url there within ''
+    ]                
         )
 
     pages = web_loader.load_and_split()
@@ -116,9 +112,10 @@ if api_key is None or api_key == "":
 
 else:   
     # session state
+    # you can set AI message according to your data.
     if "chat_history" not in st.session_state:
             st.session_state.chat_history = [
-                AIMessage(content="Hello, I am 10pearls AI assistant. Ask me about 10pearls.")
+                AIMessage(content="Hello, I am Systems Limited AI assistant. Ask me anything about Systems Limited.")
             ]
     if "vector_store" not in st.session_state:
         st.session_state.vector_store = get_vector_store()
