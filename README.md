@@ -24,7 +24,9 @@ An AI-powered conversational assistant for Systems Limited inc. built using **St
 5. Use RAG to retrieve relevant context.
 6. Generate accurate answers using Groq's LLM.
 
-   [![Watch on LinkedIn](Images/thumbnail.png)](https://www.linkedin.com/posts/amarta-waghani-b6286229b_ai-rag-langchain-activity-7288130909071904768-sZGf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEiQSfoBQfo16lgFb6bLPB8ih4mqdW0hwUw)
+## ▶️ Watch the Demo 👇😀
+
+[![Watch on LinkedIn](Images/thumbnail.png)](https://www.linkedin.com/posts/amarta-waghani-b6286229b_ai-rag-langchain-activity-7288130909071904768-sZGf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEiQSfoBQfo16lgFb6bLPB8ih4mqdW0hwUw)
 
 ## What is RAG?
 
@@ -101,11 +103,11 @@ The app uses custom HTML/CSS templates for chat styling. See:
 
 ## 🙌 Acknowledgements
 
-[LangChain](https://python.langchain.com/docs/introduction/)
+-  [LangChain](https://python.langchain.com/docs/introduction/)
 
-[Qdrant]()
+-  [Qdrant]()
 
-[Groq](https://groq.com/)
+-  [Groq](https://groq.com/)
 
-[Hugging Face Embeddings](https://huggingface.co/spaces/mteb/leaderboard)
+-  [Hugging Face Embeddings](https://huggingface.co/spaces/mteb/leaderboard)
 
