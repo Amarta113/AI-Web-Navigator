@@ -29,19 +29,21 @@ css = '''
 }
 '''
 
+# set your bot avatar by setting the url of the image in src
 bot_template = '''
 <div class="chat-message bot">
     <div class="avatar">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1cc4JhosemUoVwzLv9EspZU3Tg4kj_Zmbyg&s">
+        <img src="bot-image-url">
     </div>
     <div class="message">{{MSG}}</div>
 </div>
 '''
 
+# set your user avatar by setting the url of the image in src
 user_template = '''
 <div class="chat-message user">
     <div class="avatar">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThm6jtng5blMlCha7BBjNBc4OO788k_ho7lQ&s">
+        <img src="user-image-url">
     </div>    
     <div class="message">{{MSG}}</div>
 </div>
