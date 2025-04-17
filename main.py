@@ -22,11 +22,10 @@ load_dotenv()
 def get_vector_store():
     web_loader = WebBaseLoader([
         # add your website url there within ''
-    ]                
-        )
+    ])
 
     pages = web_loader.load_and_split()
-    
+    #set the chunk size and chunk overlap  according to data 
     txt_splitter = RecursiveCharacterTextSplitter(
     chunk_size = 200,
     chunk_overlap = 20,
@@ -53,7 +52,7 @@ def get_vector_store():
                         embed_model,
                         url=os.getenv("qdrant_url"),
                         api_key=os.getenv("qdrant_key"),
-                        collection_name='afiniti'
+                        collection_name='collections'
 
                         )
 
@@ -97,10 +96,10 @@ def get_response(user_query, vector_store, api_key):
     return response['answer']
 
     
-st.set_page_config(page_title="10pearls", page_icon=":globe_with_meridians:")
+st.set_page_config(page_title="Systems", page_icon=":globe_with_meridians:")
 st.write(css, unsafe_allow_html=True)
 
-st.title("10pearls AI Assistant")
+st.title("Systems AI Assistant")
 
 with st.sidebar:
         st.header("Settings")
