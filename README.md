@@ -72,7 +72,7 @@ In this project, we use:
    qdrant_key = YOUR-QDRANT-API-KEY
 5. **Run the app**
    ```bash
-   steamlit run main.py
+   streamlit run main.py
 
 ## 🔑 Required API Keys
    Groq API Key (input from sidebar at runtime)
@@ -96,6 +96,8 @@ In this project, we use:
   
 -  **Collection Name:** Change `collection` to anything relevant to your use case
 
+-  **Logo:** You can change the bot and user logos by setting the image URLs in the `style.py` file.
+  
 ## 🎨 UI Styling
 The app uses custom HTML/CSS templates for chat styling. See:
 
