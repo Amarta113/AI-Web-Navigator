@@ -1,6 +1,6 @@
-# Systems AI Assistant
+# Web AI Assistant
 
-An AI-powered conversational assistant for Systems Limited inc. built using **Streamlit**, **LangChain**, and **Mixtral LLM**. It leverages **retrieval-augmented generation (RAG)** by embedding and indexing website content into **Qdrant vector store** for contextual question answering.
+An AI-powered conversational assistant for a Website built using **Streamlit**, **LangChain**, and **Mixtral LLM**. It leverages **retrieval-augmented generation (RAG)** by embedding and indexing website content into **Qdrant vector store** for contextual question answering.
 
 
 ## 🔍 Features
